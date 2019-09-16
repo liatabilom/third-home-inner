@@ -4,27 +4,28 @@ import './ChineseSlide.css';
 class ChineseSlide extends Component {
 	render() {
 		return (
-			<div className="container chineseContainer" style={{ width: 1140 }}>
+			<div className="container chineseContainer">
 				<div className="chineseGroupContainer ">
 					<div className="chineseBox">
 						<img
 							src="https://i.imgur.com/eF7tVKa.png"
 							alt="Chinese Restaurant"
 							className="chinesePictures"
-							style={{ width: 200, height: 200 }}
+							style={{ width: 350, height: 280 }}
 						/>
+						<br />
 						<img
 							src="https://i.imgur.com/5z6lkBH.png"
 							alt="Chinese Menu"
 							className="chinesePictures"
-							style={{ width: 150, height: 200 }}
+							style={{ width: 350, height: 280 }}
 						/>
-
+						<br />
 						<img
-							src="https://i.imgur.com/i4LWVDN.png"
-							alt=""
+							src="https://i.imgur.com/mXjYuqR.png"
+							alt="Chinese App Flow"
 							className="chinesePictures"
-							style={{ width: 180, height: 200 }}
+							style={{ width: 300, height: 250, margin: 22 }}
 						/>
 					</div>
 				</div>

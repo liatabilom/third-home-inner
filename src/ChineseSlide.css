@@ -1,28 +1,18 @@
-.container {
-	margin: 0px;
-	padding: 0px;
-}
-.chineseContainer {
-	display: flex;
-	position: relative;
-	top: 170px;
-	left: -15px;
-	background: #f5f4ef;
-	width: 1440px;
-	height: 830px;
-	padding: 15, 0px;
-	margin: 150, 0px;
+.container .chineseContainer {
+	position: absolute;
+	height: 700px;
 }
 
 .chineseGroupContainer {
 	position: relative;
-	top: 150px;
-	height: 200px;
-	width: 2500px;
+	top: 0px;
+	left: 700px;
+	height: 1000px;
+	width: 400px;
 	border: none;
 	overflow: hidden;
-	margin: 0px;
-	padding: 40px 0px;
+	margin: 10px;
+	padding: 40px;
 }
 
 .chineseBox {
