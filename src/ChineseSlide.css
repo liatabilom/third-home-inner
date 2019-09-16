@@ -1,0 +1,54 @@
+.container {
+	margin: 0px;
+	padding: 0px;
+}
+.chineseContainer {
+	display: flex;
+	position: relative;
+	top: 170px;
+	left: -15px;
+	background: #f5f4ef;
+	width: 1440px;
+	height: 830px;
+	padding: 15, 0px;
+	margin: 150, 0px;
+}
+
+.chineseGroupContainer {
+	position: relative;
+	top: 150px;
+	height: 200px;
+	width: 2500px;
+	border: none;
+	overflow: hidden;
+	margin: 0px;
+	padding: 40px 0px;
+}
+
+.chineseBox {
+	object-fit: scale-down;
+	position: relative;
+	top: -40px;
+	margin: 0px;
+	display: inline;
+	animation-name: chinese;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	transition: transform 0.2s;
+}
+
+.chineseBox:hover {
+	animation-play-state: paused;
+	transform: scale(1.5);
+}
+
+@keyframes chinese {
+	0% {
+		margin-top: -1500px;
+	}
+	100% {
+		margin-top: 110px;
+	}
+}

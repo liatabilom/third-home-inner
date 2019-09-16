@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ChineseSlide from './ChineseSlide';
 import './MainApp.css';
 
 class MainApp extends Component {
@@ -12,6 +13,9 @@ class MainApp extends Component {
 						Correia Gonc,alves
 					</header>
 				</h1>
+				<h2>
+					<ChineseSlide />
+				</h2>
 			</div>
 		);
 	}
