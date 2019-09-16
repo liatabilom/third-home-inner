@@ -1,32 +1,38 @@
-.container .chineseContainer {
+.container {
+	padding: 10px;
+}
+
+.chineseContainer {
 	position: absolute;
 	height: 700px;
+	display: flex;
 }
 
 .chineseGroupContainer {
 	position: relative;
-	top: 0px;
-	left: 700px;
-	height: 1000px;
-	width: 400px;
+	top: -120px;
+	left: 600px;
+	height: 880px;
+	width: 500px;
 	border: none;
-	overflow: hidden;
+	overflow: auto;
 	margin: 10px;
-	padding: 40px;
-}
-
-.chineseBox {
-	object-fit: scale-down;
-	position: relative;
-	top: -40px;
-	margin: 0px;
-	display: inline;
+	padding: 10px;
 	animation-name: chinese;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate-reverse;
 	animation-timing-function: linear;
 	transition: transform 0.2s;
+}
+
+.chineseBox {
+	object-fit: scale-down;
+	position: relative;
+	top: -20px;
+	margin: 5px;
+	text-align: center;
+	display: inline;
 }
 
 .chineseBox:hover {
@@ -36,9 +42,9 @@
 
 @keyframes chinese {
 	0% {
-		margin-top: -1500px;
+		margin-top: -700px;
 	}
 	100% {
-		margin-top: 110px;
+		margin-top: 100px;
 	}
 }

@@ -11,21 +11,19 @@ class ChineseSlide extends Component {
 							src="https://i.imgur.com/eF7tVKa.png"
 							alt="Chinese Restaurant"
 							className="chinesePictures"
-							style={{ width: 350, height: 280 }}
+							style={{ width: 420, height: 330 }}
 						/>
-						<br />
 						<img
 							src="https://i.imgur.com/5z6lkBH.png"
 							alt="Chinese Menu"
 							className="chinesePictures"
-							style={{ width: 350, height: 280 }}
+							style={{ width: 420, height: 330 }}
 						/>
-						<br />
 						<img
 							src="https://i.imgur.com/mXjYuqR.png"
 							alt="Chinese App Flow"
 							className="chinesePictures"
-							style={{ width: 300, height: 250, margin: 22 }}
+							style={{ width: 360, height: 270, margin: 22 }}
 						/>
 					</div>
 				</div>
