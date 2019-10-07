@@ -12,10 +12,6 @@
 	margin: 5px;
 }
 
-.videoContainer {
-	display: block;
-}
-
 .topText {
 	position: absolute;
 	width: 199px;
@@ -43,6 +39,7 @@
 .tablet {
 	height: 15%;
 	width: 15%;
+	margin: 0px;
 	position: relative;
 	top: -100px;
 	left: 200px;
