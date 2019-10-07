@@ -4,7 +4,9 @@ import './App.css';
 
 function App() {
 	return (
-		<div className="container mainContainer mt-3">
+		<div style={{
+			backgroundColor: '#f5f4ef',
+		}}>
 			<MainApp />
 		</div>
 	);

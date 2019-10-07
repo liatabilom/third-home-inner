@@ -1,50 +1,44 @@
-.container {
-	padding: 10px;
-}
-
 .chineseContainer {
-	position: absolute;
-	height: 700px;
 	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
 
 .chineseGroupContainer {
-	position: relative;
-	top: -120px;
-	left: 600px;
-	height: 880px;
-	width: 500px;
+	height: 600px;
 	border: none;
-	overflow: auto;
-	margin: 10px;
-	padding: 10px;
+	overflow: hidden;
+}
+
+.chineseBox {
+	height: 500px;
+	width: 600px;
+	text-align: center;
 	animation-name: chinese;
-	animation-duration: 10s;
+	animation-duration: 20s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate-reverse;
 	animation-timing-function: linear;
 	transition: transform 0.2s;
 }
 
-.chineseBox {
-	object-fit: scale-down;
-	position: relative;
-	top: -20px;
-	margin: 5px;
-	text-align: center;
-	display: inline;
-}
-
 .chineseBox:hover {
 	animation-play-state: paused;
-	transform: scale(1.5);
 }
 
 @keyframes chinese {
 	0% {
-		margin-top: -700px;
+		margin-top: -1280px;
 	}
 	100% {
-		margin-top: 100px;
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.chineseBox {
+		width: 10%;
 	}
 }

@@ -1,0 +1,16 @@
+.user-journey-app {
+	position: absolute;
+	top: 80px;
+	left: 550px;
+	width: 100px;
+}
+
+.user-journey-video {
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+	.user-journey-app {
+		left: 0;
+	}
+}
