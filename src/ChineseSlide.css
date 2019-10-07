@@ -24,9 +24,9 @@
 	transition: transform 0.2s;
 }
 
-.chineseBox:hover {
+/* .chineseBox:hover {
 	animation-play-state: paused;
-}
+} */
 
 @keyframes chinese {
 	0% {
