@@ -11,9 +11,11 @@ class MainApp extends Component {
 			<div>
 				<div className="header">
 					<header>
-						Na'dia
-						<br />
-						Correia Gonc,alves
+						<a href="https://www.correiagoncalves.com" style={{ textDecoration: 'none', color: '#80848F' }}>
+							Na'dia
+							<br />
+							Correia Gonc,alves
+						</a>
 					</header>
 				</div>
 				<div className="container videoContainer">
