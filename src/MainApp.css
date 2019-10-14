@@ -12,42 +12,49 @@
 	margin: 5px;
 }
 
+.text {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 7px;
+	line-height: 8px;
+	color: #80848f;
+}
+
+.staff {
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	bottom: 0px;
+	left: 300px;
+}
+
 .topText {
 	position: absolute;
 	width: 199px;
 	height: 137px;
 	left: 150px;
 	top: 200px;
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 7px;
-	line-height: 8px;
-	color: #80848f;
 }
 
 .bottomText {
 	position: absolute;
 	width: 199px;
-	height: 137px;
+	height: 80px;
 	left: 150px;
-	top: 350px;
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 7px;
-	line-height: 8px;
-	color: #80848f;
+	top: 320px;
 }
 
 .tablet {
-	height: 15%;
+	height: 40%;
 	width: 15%;
 	margin: 0px;
 	position: relative;
-	top: -100px;
-	left: 200px;
+	top: -130px;
+	left: 180px;
 }
 
 .vector {
 	position: relative;
-	top: -200px;
+	bottom: 250px;
 	left: 200px;
 }
 
@@ -59,11 +66,15 @@
 		top: 700px;
 	}
 	.vector {
-		top: 110px;
+		top: 100px;
 		left: 80px;
 	}
 	.tablet {
 		top: 200px;
 		left: 100px;
+	}
+	.staff {
+		top: 890px;
+		left: 150px;
 	}
 }

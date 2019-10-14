@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './ChineseSlide.css';
 
 class ChineseSlide extends Component {
+	enlargePicture = () => {
+		width: 100%;
+	};
+
 	render() {
 		return (
 			<div className="chineseContainer">
@@ -26,6 +30,7 @@ class ChineseSlide extends Component {
 							alt="Chinese App Flow"
 							className="chinesePictures"
 							style={{ width: 550, height: 490 }}
+							onClick={this.enlargePicture}
 						/>
 					</div>
 				</div>
