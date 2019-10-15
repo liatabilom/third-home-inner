@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
+import ModalPicture from './ModalPicture';
 import './ChineseSlide.css';
 
 class ChineseSlide extends Component {
-	enlargePicture = () => {
-		width: 100%;
-	};
-
 	render() {
 		return (
 			<div className="chineseContainer">
@@ -25,13 +22,7 @@ class ChineseSlide extends Component {
 							style={{ width: 640, height: 750 }}
 						/>
 						<br />
-						<img
-							src="https://i.imgur.com/mXjYuqR.png"
-							alt="Chinese App Flow"
-							className="chinesePictures"
-							style={{ width: 550, height: 490 }}
-							onClick={this.enlargePicture}
-						/>
+						<ModalPicture />
 					</div>
 				</div>
 			</div>
