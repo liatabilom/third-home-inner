@@ -5,7 +5,6 @@ class ModalPicture extends Component {
 
 	handleModal = () => {
 		this.setState({ isOpen: !this.state.isOpen });
-		console.log('cliked');
 	};
 
 	render() {
@@ -15,14 +14,13 @@ class ModalPicture extends Component {
 					src="https://i.imgur.com/mXjYuqR.png"
 					alt="Chinese App Flow"
 					className="chinesePictures"
-					id="modal"
-					style={{ width: 550, height: 490 }}
+					style={{ width: 520, height: 390 }}
 					onClick={this.handleModal}
 				/>
 				{this.state.isOpen && (
 					<dialog
 						className="dialog"
-						style={{ position: 'absolute', top: 40 }}
+						style={{ position: 'absolute', top: -10, zIndex: 1 }}
 						open
 						onClick={this.handleModal}
 					>
@@ -30,8 +28,7 @@ class ModalPicture extends Component {
 							src="https://i.imgur.com/mXjYuqR.png"
 							alt="Chinese App Flow"
 							className="chinesePictures"
-							id="modal"
-							style={{ width: 550, height: 490 }}
+							style={{ width: 650, height: 590 }}
 							onClick={this.handleModal}
 						/>
 					</dialog>

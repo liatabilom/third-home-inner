@@ -3,6 +3,7 @@ import ChineseSlide from './ChineseSlide';
 import UserJourneyVideos from './UserJourneyVideos';
 import TopParagraph from './TopParagraph';
 import BottomParagraph from './BottomParagraph';
+import Switch from './Switch';
 import './MainApp.css';
 
 class MainApp extends Component {
@@ -18,7 +19,7 @@ class MainApp extends Component {
 						</a>
 					</header>
 				</div>
-				<div className="container videoContainer">
+				<div className="container">
 					<div className="row">
 						<div className="card-body p-0 col-md-12 border border-dark">
 							<div className="text">
@@ -30,6 +31,7 @@ class MainApp extends Component {
 								<ChineseSlide />
 								<UserJourneyVideos />
 							</div>
+							<Switch />
 						</div>
 					</div>
 					<svg
