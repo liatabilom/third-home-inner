@@ -14,7 +14,7 @@ class ModalPicture extends Component {
 					src="https://i.imgur.com/mXjYuqR.png"
 					alt="Chinese App Flow"
 					className="chinesePictures"
-					style={{ width: 520, height: 390 }}
+					style={{ width: 540, height: 390, position: 'relative', left: 15 }}
 					onClick={this.handleModal}
 				/>
 				{this.state.isOpen && (
