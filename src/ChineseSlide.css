@@ -24,13 +24,13 @@
 	transition: transform 0.2s;
 }
 
-/* .chineseBox:hover {
-	animation-play-state: scroll;
-} */
+.chineseBox:hover {
+	animation-play-state: paused;
+}
 
 @keyframes chinese {
 	0% {
-		margin-top: -1280px;
+		margin-top: -1000px;
 	}
 	100% {
 		margin-top: 0px;
