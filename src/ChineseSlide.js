@@ -12,14 +12,14 @@ class ChineseSlide extends Component {
 							src="https://i.imgur.com/eF7tVKa.png"
 							alt="Chinese Restaurant"
 							className="chinesePictures"
-							style={{ width: 640, height: 750 }}
+							style={{ width: 640, height: 600 }}
 						/>
 						<br />
 						<img
 							src="https://i.imgur.com/5z6lkBH.png"
 							alt="Chinese Menu"
 							className="chinesePictures"
-							style={{ width: 640, height: 750 }}
+							style={{ width: 640, height: 600 }}
 						/>
 						<br />
 						<ModalPicture />
