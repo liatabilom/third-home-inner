@@ -7,7 +7,7 @@ class Switch extends Component {
 		this.setState({ isChecked: !this.state.isChecked });
 		console.log('clicked');
 		if (this.state.isChecked === false) {
-			alert('IS WORKING!!!');
+			alert("It's WORKING!!!");
 		}
 	};
 
@@ -21,7 +21,7 @@ class Switch extends Component {
 						id="customSwitch1"
 						onClick={this.handleCheck}
 					/>
-					<label className="custom-control-label" for="customSwitch1" />
+					<label className="custom-control-label" htmlFor="customSwitch1" />
 				</div>
 			</div>
 		);

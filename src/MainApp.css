@@ -15,6 +15,7 @@
 .switchVideo {
 	position: relative;
 	left: 100px;
+	top: 160px;
 	width: 60px;
 	height: 30px;
 }

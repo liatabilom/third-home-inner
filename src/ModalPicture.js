@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExpand } from '@fortawesome/free-solid-svg-icons';
 
 class ModalPicture extends Component {
 	state = { isOpen: false };
@@ -14,13 +16,14 @@ class ModalPicture extends Component {
 					src="https://i.imgur.com/mXjYuqR.png"
 					alt="Chinese App Flow"
 					className="chinesePictures"
-					style={{ width: 540, height: 390, position: 'relative', left: 15 }}
+					style={{ width: 550, height: 390, position: 'relative', left: 20 }}
 					onClick={this.handleModal}
 				/>
+				<FontAwesomeIcon icon={faExpand} className="expandIcon" onClick={this.handleModal} />
 				{this.state.isOpen && (
 					<dialog
 						className="dialog"
-						style={{ position: 'absolute', top: -10, zIndex: 1 }}
+						style={{ position: 'absolute', top: -80, zIndex: 1 }}
 						open
 						onClick={this.handleModal}
 					>
@@ -28,8 +31,7 @@ class ModalPicture extends Component {
 							src="https://i.imgur.com/mXjYuqR.png"
 							alt="Chinese App Flow"
 							className="chinesePictures"
-							style={{ width: 650, height: 590 }}
-							onClick={this.handleModal}
+							style={{ width: 1000, height: 700 }}
 						/>
 					</dialog>
 				)}
