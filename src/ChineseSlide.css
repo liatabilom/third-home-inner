@@ -16,11 +16,11 @@
 	height: 500px;
 	width: 600px;
 	text-align: center;
-	animation-name: chinese;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate-reverse;
-	animation-timing-function: linear;
+	animation-name: -webkit-animation-name chinese;
+	animation-duration: -webkit-animation-duration 10s;
+	animation-iteration-count: -webkit-animation-count infinite;
+	animation-direction: -webkit-animation-direction alternate-reverse;
+	animation-timing-function: -webkit-animation-function linear;
 	transition: transform 0.2s;
 }
 

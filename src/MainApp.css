@@ -12,8 +12,19 @@
 	margin: 5px;
 }
 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side {
+	flex: 50%;
+	padding: 0px;
+	margin-left: 15px;
+}
+
 .switchVideo {
-	position: relative;
+	position: absolute;
 	left: 100px;
 	top: 160px;
 	width: 60px;
@@ -28,11 +39,11 @@
 }
 
 .staff {
-	position: absolute;
+	position: relative;
 	width: 120px;
 	height: 40px;
-	bottom: -30px;
-	left: 480px;
+	top: -100px;
+	left: 140px;
 }
 
 .topText {
@@ -82,7 +93,7 @@
 		left: 100px;
 	}
 	.staff {
-		top: 890px;
-		left: 150px;
+		top: 200px;
+		left: 100px;
 	}
 }
