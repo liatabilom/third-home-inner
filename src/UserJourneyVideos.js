@@ -15,7 +15,7 @@ class UserJourneyVideos extends Component {
 						className="user-journey-video"
 						name="wistia_embed"
 						width="80"
-						height="160"
+						height="170"
 						allowFullScreen
 						mozallowfullscreen="true"
 						webkitallowfullscreen="true"
@@ -28,14 +28,14 @@ class UserJourneyVideos extends Component {
 				<div>
 					<iframe
 						title="User Journey 2"
-						src="https://fast.wistia.com/embed/medias/zukt9ef506"
+						src="https://fast.wistia.com/embed/medias/senv1rj91r"
 						allowtransparency="true"
 						frameBorder="0"
 						scrolling="no"
 						className="user-journey-video"
 						name="wistia_embed"
-						width="80"
-						height="160"
+						width="85"
+						height="170"
 						allowFullScreen
 						mozallowfullscreen="true"
 						webkitallowfullscreen="true"
