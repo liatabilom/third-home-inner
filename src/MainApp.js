@@ -3,7 +3,7 @@ import ChineseSlide from './ChineseSlide';
 import UserJourneyVideos from './UserJourneyVideos';
 import TopParagraph from './TopParagraph';
 import BottomParagraph from './BottomParagraph';
-import Switch from './Switch';
+
 import './MainApp.css';
 
 class MainApp extends Component {
@@ -24,7 +24,6 @@ class MainApp extends Component {
 					<div className="row">
 						<div className="card-body p-0 col-md-12 border border-dark">
 							<div className="text">
-								<Switch />
 								<TopParagraph />
 								<BottomParagraph />
 							</div>
