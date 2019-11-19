@@ -77,11 +77,15 @@
 }
 
 @media only screen and (max-width: 480px) {
+	.switch {
+		top: 50px;
+		left: 30px;
+	}
 	.topText {
-		top: 650px;
+		top: 0px;
 	}
 	.bottomText {
-		top: 700px;
+		top: 50px;
 	}
 	.vector {
 		top: 100px;
