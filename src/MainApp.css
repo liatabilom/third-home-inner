@@ -23,14 +23,6 @@
 	margin-left: 15px;
 }
 
-.switchVideo {
-	position: absolute;
-	left: 100px;
-	top: 160px;
-	width: 60px;
-	height: 30px;
-}
-
 .text {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 7px;
@@ -45,21 +37,28 @@
 	top: -100px;
 	left: 140px;
 }
+.switch {
+	position: relative;
+	top: -500px;
+	left: 60px;
+	width: 60px;
+	height: 30px;
+}
 
 .topText {
 	position: absolute;
 	width: 199px;
 	height: 137px;
-	left: 150px;
-	top: 200px;
+	left: 100px;
+	top: 100px;
 }
 
 .bottomText {
 	position: absolute;
 	width: 199px;
 	height: 80px;
-	left: 150px;
-	top: 320px;
+	left: 100px;
+	top: 200px;
 }
 
 .tablet {
@@ -79,7 +78,7 @@
 
 @media only screen and (max-width: 480px) {
 	.topText {
-		top: 620px;
+		top: 650px;
 	}
 	.bottomText {
 		top: 700px;

@@ -23,7 +23,7 @@ class ModalPicture extends Component {
 				{this.state.isOpen && (
 					<dialog
 						className="dialog"
-						style={{ position: 'absolute', top: -80, zIndex: 1 }}
+						style={{ position: 'absolute', top: -40, zIndex: 1 }}
 						open
 						onClick={this.handleModal}
 					>
