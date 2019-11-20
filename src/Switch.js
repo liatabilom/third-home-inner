@@ -26,7 +26,7 @@ class SwitchTest extends Component {
 		return (
 			<div class="custom-control custom-switch switch">
 				<input type="checkbox" class="custom-control-input" id="customSwitch1" />
-				<label class="custom-control-label" for="customSwitch1" onClick={() => this.ToggleButton()} />\
+				<label class="custom-control-label" for="customSwitch1" onClick={() => this.ToggleButton()} />
 				<p className="topText">{!this.state.textDisplay ? this.state.textTopEn : this.state.textTopPt}</p>
 				<br />
 				<p className="bottomText">
