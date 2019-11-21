@@ -34,7 +34,7 @@ class UserJourneyVideos extends Component {
 						scrolling="no"
 						className="user-journey-video"
 						name="wistia_embed"
-						width="85"
+						width="84"
 						height="170"
 						allowFullScreen
 						mozallowfullscreen="true"
