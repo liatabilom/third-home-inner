@@ -9,12 +9,11 @@ class ChineseSlide extends Component {
 				<div className="chineseGroupContainer">
 					<div className="chineseBox">
 						<img
-							src="https://i.imgur.com/eF7tVKa.png"
+							src="https://i.imgur.com/Vj0M2Zu.png"
 							alt="Chinese Restaurant"
 							className="chinesePictures"
 							style={{ width: 640, height: 600 }}
 						/>
-						<br />
 						<img
 							src="https://i.imgur.com/5z6lkBH.png"
 							alt="Chinese Menu"

@@ -13,7 +13,7 @@ class ModalPicture extends Component {
 		return (
 			<div>
 				<img
-					src="https://i.imgur.com/mXjYuqR.png"
+					src="https://i.imgur.com/wuiO8rI.png"
 					alt="Chinese App Flow"
 					className="chinesePictures"
 					style={{ width: 550, height: 390, position: 'relative', left: 20 }}
@@ -28,7 +28,7 @@ class ModalPicture extends Component {
 						onClick={this.handleModal}
 					>
 						<img
-							src="https://i.imgur.com/mXjYuqR.png"
+							src="https://i.imgur.com/N5CdN38.png"
 							alt="Chinese App Flow"
 							className="chinesePictures"
 							style={{ width: 1000, height: 700 }}
